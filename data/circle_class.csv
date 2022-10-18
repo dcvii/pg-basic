@@ -1,0 +1,20 @@
+id,cx,short_desc,long_desc
+0,C0, Root ,Zero Circle
+1,C1, Self ,First Person Circle
+2,C2,Intimates , Family Circle
+3,C3,Friends , Close Friends & Loved Ones
+4,C4,Associates, Certified Associates
+5,C5,Passerby, Public General
+6,C6,Beacon, Minimal
+7,CZ,Zulu, Dark Permanent
+12,C4,Associates , Certified Associates
+15,C4A ,Class A Servants , Personal professionals
+17,C4B ,Class B Servants , Institutional Professionals
+19,C4C ,Class C Service, Certs
+23,C4D ,Class D Service, Dating
+29,C5,Passerby, Public General
+31,C5X ,Public, Open Face Transparent Transient
+37,C5Y ,Opaque , Going Blocky 
+41,C5Z ,Zulu , Anonymous
+43,C6B ,Beacon, Minimal 
+47,C6Z , Zulu , Secret
