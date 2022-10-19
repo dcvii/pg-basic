@@ -5,11 +5,20 @@ services:
     build: ./db
     container_name: postgres
     ports:
-      - "5431:6666"
+      - "5432:5432"
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=basic
     volumes:
       - ./data:/data
+    
+  pg-admin:
+    image: dpage/pgadmin4:6
+    environment: 
+      - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+      - PGADMIN_DEFAULT_PASSWORD=manager
+      - PGADMIN_LISTEN_PORT=5050
+    ports:
+      - "5050:5050"
       

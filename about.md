@@ -57,4 +57,10 @@ Explanation
 Dockerfile uses postgres image and copies all *.sql files to /docker-entrypoint-initdb.d/. Later, all files are executed in alphanumerical order, that's why *.sql files start with digits. Finally, port 6666 is exposed.
 
 docker-compose.yml builds the Dockerfile from db folder and make it accessible through 5431 port. As environmental properties basic postgres properties are used. And at the end data folder with CSV file is copied to the container.
+
+
+---
+
+Also see this YouTube (https://www.youtube.com/watch?v=eKEzq59FhEw)
+
 --mdcb 2022-11-18
